@@ -1,0 +1,20 @@
+POST http://localhost:3333/goals
+Content-Type: application/json
+
+{
+  "title": "Swim",
+  "desiredWeeklyFrequency": 2
+}
+
+#############
+
+GET http://localhost:3333/pending-goals
+
+#############
+
+POST http://localhost:3333/completions
+Content-Type: application/json
+
+{
+  "goalId": "hc6r687moxwzoq408l6fuya1"
+}
