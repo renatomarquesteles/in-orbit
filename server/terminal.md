@@ -17,3 +17,4 @@ npx drizzle-kit studio
 npm i @paralleldrive/cuid2
 npm i dayjs
 npm i fastify-type-provider-zod
+npm i @fastify/cors
